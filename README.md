@@ -11,7 +11,7 @@ The Sports Selection System allows staff members to select their preferred sport
 # **Features**
 
 
-#Core Features
+*Core Features*
 
 -Category Classification: Sports organized into Individual, Partner, and Team categories
 
@@ -24,8 +24,7 @@ The Sports Selection System allows staff members to select their preferred sport
 -Data Persistence: Store selections in memory using ArrayList
 
 
-
-#Additional Features
+*Additional Features*
 
 -Input Validation: Ensures staff name is provided before submission
 
@@ -39,5 +38,26 @@ The Sports Selection System allows staff members to select their preferred sport
 
 
 # **System Architecture**
+
+*Data Structure*
+
+ArrayList<String[]>: Stores staff selections with department, name, and category preferences
+
+HashMap<String, Integer>: Tracks cumulative counts for each category
+
+String Arrays: Pre-defined sports lists for each category
+
+*GUI Components*
+JFrame: Main application window
+
+JTextField: Department name input
+
+JTextField: Staff name input
+
+JCheckBox: Sport category selection
+
+JButton: Submission control
+
+JLabel: Informational text displays
 
 
