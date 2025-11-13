@@ -13,51 +13,51 @@ The Sports Selection System allows staff members to select their preferred sport
 
 *Core Features*
 
--Category Classification: Sports organized into Individual, Partner, and Team categories
+- Category Classification: Sports organized into Individual, Partner, and Team categories
 
--Staff Information: Capture department and name details
+- Staff Information: Capture department and name details
 
--Multiple Selection: Allow selection of up to 2 sport categories
+- Multiple Selection: Allow selection of up to 2 sport categories
 
--Real-time Summary: Dynamic count display for each category
+- Real-time Summary: Dynamic count display for each category
 
--Data Persistence: Store selections in memory using ArrayList
+- Data Persistence: Store selections in memory using ArrayList
 
 
 *Additional Features*
 
--Input Validation: Ensures staff name is provided before submission
+- Input Validation: Ensures staff name is provided before submission
 
--Selection Limits: Enforces maximum of 2 category selections per staff member
+- Selection Limits: Enforces maximum of 2 category selections per staff member
 
--User Feedback: Informative error and confirmation messages
+- User Feedback: Informative error and confirmation messages
 
--Default Settings: Pre-configured with common defaults
+- Default Settings: Pre-configured with common defaults
 
--Professional UI: Clean, organized interface with proper spacing and borders
+- Professional UI: Clean, organized interface with proper spacing and borders
 
 
 # **System Architecture**
 
 *Data Structure*
 
-ArrayList<String[]>: Stores staff selections with department, name, and category preferences
+- ArrayList<String[]>: Stores staff selections with department, name, and category preferences
 
-HashMap<String, Integer>: Tracks cumulative counts for each category
+- HashMap<String, Integer>: Tracks cumulative counts for each category
 
-String Arrays: Pre-defined sports lists for each category
+- String Arrays: Pre-defined sports lists for each category
 
 *GUI Components*
-JFrame: Main application window
+- JFrame: Main application window
 
-JTextField: Department name input
+- JTextField: Department name input
 
-JTextField: Staff name input
+- JTextField: Staff name input
 
-JCheckBox: Sport category selection
+- JCheckBox: Sport category selection
 
-JButton: Submission control
+- JButton: Submission control
 
-JLabel: Informational text displays
+-JLabel: Informational text displays
 
 
