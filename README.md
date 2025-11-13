@@ -58,6 +58,7 @@ The Sports Selection System allows staff members to select their preferred sport
 
 - JButton: Submission control
 
--JLabel: Informational text displays
+- JLabel: Informational text displays
 
+Author -Karabo -GitHub: @Karabo-Maphoto01
 
